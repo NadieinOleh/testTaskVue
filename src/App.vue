@@ -18,13 +18,29 @@ import Form from './components/UserForm.vue';
 }
 
 .error {
-    text-align: center;
-    color: red;
-    font-size: 20px;
-  }
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+
 .success {
-    text-align: center;
-    color: green;
-    font-size: 20px;
-  }
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #ff9143;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  color: #0e312c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.img {
+  border-radius: 20px;
+}
+
 </style>
